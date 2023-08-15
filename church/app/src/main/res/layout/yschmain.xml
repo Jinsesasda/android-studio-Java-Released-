@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:weightSum="8"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/yschtitle"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.7">
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="wrap_content"
+            android:layout_height="72dp"
+            android:background="#FFFFFF"
+
+
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/yschpic" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/Lin1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="6.4">
+
+
+        <LinearLayout
+            android:id="@+id/linearLayout4"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+
+            android:orientation="vertical"
+
+            >
+
+
+            <ImageButton
+
+
+                android:id="@+id/churchttime"
+                android:layout_width="160dp"
+                android:layout_height="70dp"
+                android:scaleType="fitXY"
+
+                app:srcCompat="@drawable/churchttime" />
+
+            <ImageButton
+                android:id="@+id/seungkyoungil"
+                android:layout_width="160dp"
+                android:layout_height="70dp"
+                android:layout_marginTop="15dp"
+
+                android:layout_weight="1"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/jeungkoin"
+                tools:layout_editor_absoluteX="10dp"
+                tools:layout_editor_absoluteY="443dp" />
+
+
+            <ImageButton
+                android:id="@+id/mallsumm"
+                android:layout_width="160dp"
+                android:layout_height="70dp"
+                android:layout_marginTop="15dp"
+                android:layout_weight="1"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/yaebaeand"
+                tools:layout_editor_absoluteX="242dp"
+                tools:layout_editor_absoluteY="451dp" />
+
+            <ImageButton
+                android:id="@+id/nanumto"
+                android:layout_width="160dp"
+                android:layout_height="70dp"
+                android:layout_marginTop="15dp"
+
+
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/nanumto"
+                tools:layout_editor_absoluteX="10dp"
+                tools:layout_editor_absoluteY="263dp" />
+
+
+            <ImageButton
+                android:id="@+id/jojikdo"
+                android:layout_width="160dp"
+                android:layout_height="70dp"
+                android:layout_marginTop="15dp"
+
+
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/jogikdo"
+                tools:layout_editor_absoluteX="10dp"
+                tools:layout_editor_absoluteY="173dp" />
+
+            <ImageButton
+                android:id="@+id/qrcode"
+                android:layout_width="160dp"
+                android:layout_height="70dp"
+                android:layout_marginTop="15dp"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/qrcode"
+                tools:layout_editor_absoluteX="242dp"
+                tools:layout_editor_absoluteY="271dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+
+            android:layout_height="wrap_content"
+
+
+            android:layout_marginLeft="25dp"
+
+            android:orientation="vertical">
+
+
+            <ImageButton
+                android:id="@+id/jubo"
+                android:layout_width="160dp"
+                android:layout_height="70dp"
+
+                android:layout_weight="1"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/jubo"
+                tools:layout_editor_absoluteX="10dp"
+                tools:layout_editor_absoluteY="443dp" />
+
+
+            <ImageButton
+                android:id="@+id/thismonthsermon"
+                android:layout_width="160dp"
+                android:layout_height="70dp"
+                android:layout_marginTop="15dp"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/thismonthsernon"
+                tools:layout_editor_absoluteX="242dp"
+                tools:layout_editor_absoluteY="361dp" />
+
+            <ImageButton
+                android:id="@+id/churchschool"
+                android:layout_width="160dp"
+                android:layout_height="70dp"
+                android:layout_marginTop="15dp"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/churchyoutbe"
+                tools:layout_editor_absoluteX="10dp"
+                tools:layout_editor_absoluteY="353dp" />
+
+            <ImageButton
+                android:id="@+id/carrtime"
+                android:layout_width="160dp"
+                android:layout_height="70dp"
+                android:layout_marginTop="15dp"
+
+
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/charangannae"
+                tools:layout_editor_absoluteX="235dp"
+                tools:layout_editor_absoluteY="181dp" />
+
+
+            <ImageButton
+                android:id="@+id/dailyqt"
+                android:layout_width="160dp"
+                android:layout_height="70dp"
+                android:layout_marginTop="15dp"
+                android:scaleType="fitXY"
+                app:srcCompat="@drawable/dailyqt"
+                tools:layout_editor_absoluteX="242dp"
+                tools:layout_editor_absoluteY="271dp" />
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_weight="0.9"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+    <TextView
+        android:id="@+id/homepage"
+        android:layout_width="210dp"
+        android:layout_height="30dp"
+
+        android:background="@drawable/btnshape"
+        android:gravity="center"
+        android:text="교회 홈페이지 바로가기 >"
+        android:textSize="17dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout4" />
+
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#C5F1C7"
+        android:gravity="center"
+        android:text="(50623) 경상남도 양산시 중앙로 17 (다방동, 양산교회(고신))\n 교회 대표번호 : 055-386-2268 \nCOPYRIGHT(C) 양산교회 ALL RIGHTS RESERVED\n PROVIDED BY  Jinseok"
+        android:textSize="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"></TextView>
+    </LinearLayout>
+
+</LinearLayout>

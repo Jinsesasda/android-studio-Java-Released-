@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "854073801846",
+    "project_id": "testapplication-32fee",
+    "storage_bucket": "testapplication-32fee.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:854073801846:android:5850806252ca5724e7f357",
+        "android_client_info": {
+          "package_name": "com.churchapplication.testapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "854073801846-isiscr6fphmkaj67tii4367ks06a121j.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB5jPA0IsVXiXnkwJJUx8INSgWEng-AqIo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "854073801846-isiscr6fphmkaj67tii4367ks06a121j.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

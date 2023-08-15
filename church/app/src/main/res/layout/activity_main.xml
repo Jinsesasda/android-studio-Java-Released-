@@ -1,0 +1,707 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context=".MainActivity">
+
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="680dp"
+        android:orientation="vertical"
+        android:weightSum="12"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+        <Button
+            android:id="@+id/mjanuary"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="23dp"
+            android:layout_marginLeft="23dp"
+            android:layout_marginTop="10dp"
+            android:text="1월"
+
+
+            android:textColor="@color/black"
+            android:textFontWeight="1"
+            app:backgroundTint="@color/teal_700" />
+
+        <Button
+
+            android:id="@+id/mfeburay"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="23dp"
+            android:layout_marginLeft="23dp"
+            android:layout_marginTop="5dp"
+
+
+            android:text="2월"
+            android:textColor="@color/black"
+            app:backgroundTint="#F1E7E7" />
+
+        <Button
+
+            android:id="@+id/mmarch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="23dp"
+            android:layout_marginLeft="23dp"
+            android:layout_marginTop="5dp"
+
+
+            android:text="3월"
+            android:textColor="@color/black"
+            app:backgroundTint="#F1E7E7" />
+
+        <Button
+
+            android:id="@+id/mapril"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="23dp"
+            android:layout_marginLeft="23dp"
+            android:layout_marginTop="5dp"
+
+
+            android:text="4월"
+            android:textColor="@color/black"
+            app:backgroundTint="#F1E7E7" />
+
+
+        <Button
+
+            android:id="@+id/june"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="23dp"
+            android:layout_marginLeft="23dp"
+            android:layout_marginTop="5dp"
+
+
+            android:text="5월"
+            android:textColor="@color/black"
+            app:backgroundTint="#F1E7E7" />
+
+        <Button
+            android:id="@+id/may"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="23dp"
+            android:layout_marginLeft="23dp"
+            android:layout_marginTop="5dp"
+
+            android:text="6월"
+
+            android:textColor="@color/black"
+            app:backgroundTint="#F1E7E7" />
+
+        <Button
+            android:id="@+id/july"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="23dp"
+            android:layout_marginLeft="23dp"
+            android:layout_marginTop="5dp"
+            android:text="7월"
+            android:textColor="@color/black"
+            app:backgroundTint="#F1E7E7" />
+
+        <Button
+            android:id="@+id/august"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="23dp"
+            android:layout_marginLeft="23dp"
+            android:layout_marginTop="5dp"
+            android:text="8월"
+            android:textColor="@color/black"
+            app:backgroundTint="#F1E7E7" />
+
+        <Button
+            android:id="@+id/september"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="23dp"
+            android:layout_marginLeft="23dp"
+            android:layout_marginTop="5dp"
+            android:text="9월"
+            android:textColor="@color/black"
+            app:backgroundTint="#F1E7E7" />
+
+        <Button
+            android:id="@+id/october"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="23dp"
+            android:layout_marginLeft="23dp"
+            android:layout_marginTop="5dp"
+            android:text="10월"
+            android:textColor="@color/black"
+            app:backgroundTint="#F1E7E7" />
+
+        <Button
+            android:id="@+id/november"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="23dp"
+            android:layout_marginLeft="23dp"
+            android:layout_marginTop="5dp"
+            android:text="11월"
+            android:textColor="@color/black"
+            app:backgroundTint="#F1E7E7" />
+
+        <Button
+            android:id="@+id/december"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="23dp"
+            android:layout_marginLeft="23dp"
+            android:layout_marginTop="5dp"
+            android:text="12월"
+            android:textColor="@color/black"
+            app:backgroundTint="#F1E7E7" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="양산교회 전교인 성경읽독표에 나온 그대로 작성했습니다 \n맞는월과 일을 클릭시 하루 읽어야 되는 분량이 나오게 됩니다"
+        android:textSize="12dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <FrameLayout
+        android:id="@+id/frame"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+
+        android:layout_marginEnd="11dp"
+        android:layout_marginRight="11dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+
+            android:id="@+id/monthlayout1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="3"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <Button
+
+                android:id="@+id/january1"
+                android:layout_width="70dp"
+                android:layout_height="46dp"
+                android:layout_marginStart="130dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="13dp"
+
+                android:text="X"
+                android:textColor="#0E0E0E"
+                android:textSize="21dp"
+
+
+                app:backgroundTint="#FAF4F4" />
+
+            <Button
+                android:id="@+id/january2"
+                android:layout_width="70dp"
+                android:layout_height="46dp"
+                android:layout_marginLeft="4dp"
+
+                android:layout_marginTop="13dp"
+                android:text="X"
+                android:textColor="#0E0E0E"
+                android:textSize="21dp"
+                app:backgroundTint="#FAF4F4" />
+
+            <Button
+                android:id="@+id/january3"
+                android:layout_width="70dp"
+                android:layout_height="46dp"
+                android:layout_marginLeft="4dp"
+
+                android:layout_marginTop="13dp"
+                android:text="3"
+                android:textColor="#0E0E0E"
+                android:textSize="21dp"
+
+                app:backgroundTint="#FAF4F4" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/monthlayout2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="53dp"
+            android:orientation="horizontal"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/linearLayout2">
+
+            <Button
+                android:id="@+id/january4"
+                android:layout_width="70dp"
+                android:layout_height="46dp"
+                android:layout_marginStart="130dp"
+                android:layout_marginLeft="4dp"
+                android:layout_marginTop="5dp"
+                android:text="4"
+                android:textColor="#0E0E0E"
+                android:textSize="21dp"
+                app:backgroundTint="#FAF4F4" />
+
+            <Button
+                android:id="@+id/january5"
+                android:layout_width="70dp"
+                android:layout_height="46dp"
+                android:layout_marginLeft="4dp"
+
+                android:layout_marginTop="5dp"
+                android:text="5"
+                android:textColor="#0E0E0E"
+                android:textSize="21dp"
+                app:backgroundTint="#FAF4F4" />
+
+            <Button
+                android:id="@+id/january6"
+                android:layout_width="70dp"
+                android:layout_height="46dp"
+                android:layout_marginLeft="4dp"
+
+                android:layout_marginTop="5dp"
+                android:text="6"
+                android:textColor="#0E0E0E"
+                android:textSize="21dp"
+                app:backgroundTint="#FAF4F4" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/monthlayout3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="106dp"
+            android:orientation="horizontal"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/linearLayout2">
+
+            <Button
+                android:id="@+id/january7"
+                android:layout_width="70dp"
+                android:layout_height="46dp"
+                android:layout_marginStart="130dp"
+                android:layout_marginLeft="4dp"
+                android:layout_marginTop="5dp"
+                android:text="7"
+                android:textColor="#0E0E0E"
+                android:textSize="21dp"
+                app:backgroundTint="#FAF4F4" />
+
+            <Button
+                android:id="@+id/january8"
+                android:layout_width="70dp"
+                android:layout_height="46dp"
+                android:layout_marginLeft="4dp"
+
+                android:layout_marginTop="5dp"
+                android:text="8"
+                android:textColor="#0E0E0E"
+                android:textSize="21dp"
+                app:backgroundTint="#FAF4F4" />
+
+            <Button
+                android:id="@+id/january9"
+                android:layout_width="70dp"
+                android:layout_height="46dp"
+                android:layout_marginLeft="4dp"
+
+                android:layout_marginTop="5dp"
+                android:text="9"
+                android:textColor="#0E0E0E"
+                android:textSize="21dp"
+                app:backgroundTint="#FAF4F4" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/monthlayout4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="159dp"
+            android:orientation="horizontal"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/linearLayout2">
+
+            <Button
+                android:id="@+id/january10"
+                android:layout_width="70dp"
+                android:layout_height="46dp"
+                android:layout_marginStart="130dp"
+                android:layout_marginLeft="4dp"
+                android:layout_marginTop="5dp"
+                android:text="10"
+                android:textColor="#0E0E0E"
+                android:textSize="21dp"
+                app:backgroundTint="#FAF4F4" />
+
+            <Button
+                android:id="@+id/january11"
+                android:layout_width="70dp"
+                android:layout_height="46dp"
+                android:layout_marginLeft="4dp"
+
+                android:layout_marginTop="5dp"
+                android:text="11"
+                android:textColor="#0E0E0E"
+                android:textSize="21dp"
+                app:backgroundTint="#FAF4F4" />
+
+            <Button
+                android:id="@+id/january12"
+                android:layout_width="70dp"
+                android:layout_height="46dp"
+                android:layout_marginLeft="4dp"
+
+                android:layout_marginTop="5dp"
+                android:text="12"
+                android:textColor="#0E0E0E"
+                android:textSize="21dp"
+                app:backgroundTint="#FAF4F4" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/monthlayout5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="212dp"
+            android:orientation="horizontal"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/linearLayout2">
+
+            <Button
+                android:id="@+id/january13"
+                android:layout_width="70dp"
+                android:layout_height="46dp"
+                android:layout_marginStart="130dp"
+                android:layout_marginLeft="4dp"
+                android:layout_marginTop="5dp"
+                android:text="13"
+                android:textColor="#0E0E0E"
+                android:textSize="21dp"
+                app:backgroundTint="#FAF4F4" />
+
+            <Button
+                android:id="@+id/january14"
+                android:layout_width="70dp"
+                android:layout_height="46dp"
+                android:layout_marginLeft="4dp"
+
+                android:layout_marginTop="5dp"
+                android:text="14"
+                android:textColor="#0E0E0E"
+                android:textSize="21dp"
+                app:backgroundTint="#FAF4F4" />
+
+            <Button
+                android:id="@+id/january15"
+                android:layout_width="70dp"
+                android:layout_height="46dp"
+                android:layout_marginLeft="4dp"
+
+                android:layout_marginTop="5dp"
+                android:text="15"
+                android:textColor="#0E0E0E"
+                android:textSize="21dp"
+                app:backgroundTint="#FAF4F4" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/monthlayout6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="265dp"
+            android:orientation="horizontal"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/linearLayout2">
+
+            <Button
+                android:id="@+id/january16"
+                android:layout_width="70dp"
+                android:layout_height="46dp"
+                android:layout_marginStart="130dp"
+                android:layout_marginLeft="4dp"
+                android:layout_marginTop="5dp"
+                android:text="16"
+                android:textColor="#0E0E0E"
+                android:textSize="21dp"
+                app:backgroundTint="#FAF4F4" />
+
+            <Button
+                android:id="@+id/january17"
+                android:layout_width="70dp"
+                android:layout_height="46dp"
+                android:layout_marginLeft="4dp"
+
+                android:layout_marginTop="5dp"
+                android:text="17"
+                android:textColor="#0E0E0E"
+                android:textSize="21dp"
+                app:backgroundTint="#FAF4F4" />
+
+            <Button
+                android:id="@+id/january18"
+                android:layout_width="70dp"
+                android:layout_height="46dp"
+                android:layout_marginLeft="4dp"
+
+                android:layout_marginTop="5dp"
+                android:text="18"
+                android:textColor="#0E0E0E"
+                android:textSize="21dp"
+                app:backgroundTint="#FAF4F4" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/monthlayout7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="318dp"
+            android:orientation="horizontal"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/linearLayout2">
+
+            <Button
+                android:id="@+id/january19"
+                android:layout_width="70dp"
+                android:layout_height="46dp"
+                android:layout_marginStart="130dp"
+                android:layout_marginLeft="4dp"
+                android:layout_marginTop="5dp"
+                android:text="19"
+                android:textColor="#0E0E0E"
+                android:textSize="21dp"
+                app:backgroundTint="#FAF4F4" />
+
+            <Button
+                android:id="@+id/january20"
+                android:layout_width="70dp"
+                android:layout_height="46dp"
+                android:layout_marginLeft="4dp"
+
+                android:layout_marginTop="5dp"
+                android:text="20"
+                android:textColor="#0E0E0E"
+                android:textSize="21dp"
+                app:backgroundTint="#FAF4F4" />
+
+            <Button
+                android:id="@+id/january21"
+                android:layout_width="70dp"
+                android:layout_height="46dp"
+                android:layout_marginLeft="4dp"
+
+                android:layout_marginTop="5dp"
+                android:text="21"
+                android:textColor="#0E0E0E"
+                android:textSize="21dp"
+                app:backgroundTint="#FAF4F4" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/monthlayout8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="371dp"
+            android:orientation="horizontal"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/linearLayout2">
+
+            <Button
+                android:id="@+id/january22"
+                android:layout_width="70dp"
+                android:layout_height="46dp"
+                android:layout_marginStart="130dp"
+                android:layout_marginLeft="4dp"
+                android:layout_marginTop="5dp"
+                android:text="22"
+                android:textColor="#0E0E0E"
+                android:textSize="21dp"
+                app:backgroundTint="#FAF4F4" />
+
+            <Button
+                android:id="@+id/january23"
+                android:layout_width="70dp"
+                android:layout_height="46dp"
+                android:layout_marginLeft="4dp"
+
+                android:layout_marginTop="5dp"
+                android:text="23"
+                android:textColor="#0E0E0E"
+                android:textSize="21dp"
+                app:backgroundTint="#FAF4F4" />
+
+            <Button
+                android:id="@+id/january24"
+                android:layout_width="70dp"
+                android:layout_height="46dp"
+                android:layout_marginLeft="4dp"
+
+                android:layout_marginTop="5dp"
+                android:text="24"
+                android:textColor="#0E0E0E"
+                android:textSize="21dp"
+                app:backgroundTint="#FAF4F4" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/monthlayout9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="424dp"
+            android:orientation="horizontal"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/linearLayout2">
+
+            <Button
+                android:id="@+id/january25"
+                android:layout_width="70dp"
+                android:layout_height="46dp"
+                android:layout_marginStart="130dp"
+                android:layout_marginLeft="4dp"
+                android:layout_marginTop="5dp"
+                android:text="25"
+                android:textColor="#0E0E0E"
+                android:textSize="21dp"
+                app:backgroundTint="#FAF4F4" />
+
+            <Button
+                android:id="@+id/january26"
+                android:layout_width="70dp"
+                android:layout_height="46dp"
+                android:layout_marginLeft="4dp"
+
+                android:layout_marginTop="5dp"
+                android:text="26"
+                android:textColor="#0E0E0E"
+                android:textSize="21dp"
+                app:backgroundTint="#FAF4F4" />
+
+            <Button
+                android:id="@+id/january27"
+                android:layout_width="70dp"
+                android:layout_height="46dp"
+                android:layout_marginLeft="4dp"
+
+                android:layout_marginTop="5dp"
+                android:text="27"
+                android:textColor="#0E0E0E"
+                android:textSize="21dp"
+                app:backgroundTint="#FAF4F4" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/monthlayout10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="477dp"
+            android:orientation="horizontal"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/linearLayout2">
+
+            <Button
+                android:id="@+id/january28"
+                android:layout_width="70dp"
+                android:layout_height="46dp"
+                android:layout_marginStart="130dp"
+                android:layout_marginLeft="4dp"
+                android:layout_marginTop="5dp"
+                android:text="28"
+                android:textColor="#0E0E0E"
+                android:textSize="21dp"
+                app:backgroundTint="#FAF4F4" />
+
+            <Button
+
+                android:id="@+id/january29"
+                android:layout_width="70dp"
+                android:layout_height="46dp"
+                android:layout_marginLeft="4dp"
+
+                android:layout_marginTop="5dp"
+                android:text="29"
+                android:textColor="#0E0E0E"
+                android:textSize="21dp"
+                app:backgroundTint="#FAF4F4" />
+
+            <Button
+                android:id="@+id/january30"
+                android:layout_width="70dp"
+                android:layout_height="46dp"
+                android:layout_marginLeft="4dp"
+
+                android:layout_marginTop="5dp"
+                android:text="30"
+                android:textColor="#0E0E0E"
+                android:textSize="21dp"
+                app:backgroundTint="#FAF4F4" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/monthlayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="530dp"
+            android:orientation="horizontal"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/linearLayout2">
+
+            <Button
+                android:id="@+id/january31"
+                android:layout_width="70dp"
+                android:layout_height="46dp"
+                android:layout_marginStart="130dp"
+                android:layout_marginLeft="4dp"
+                android:layout_marginTop="5dp"
+                android:text="31"
+                android:textColor="#0E0E0E"
+                android:textSize="21dp"
+                app:backgroundTint="#FAF4F4" />
+
+        </LinearLayout>
+    </FrameLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

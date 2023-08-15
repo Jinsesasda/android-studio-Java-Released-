@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/testapll"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:baselineAligned="true"
+    android:gravity="center"
+
+
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:paddingRight="10dp">
+
+    <LinearLayout
+        android:id="@+id/tex"
+        android:layout_width="250dp"
+        android:layout_height="280dp"
+
+        android:background="@drawable/popupdesign"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/closepop"
+            android:layout_width="28dp"
+            android:layout_height="28dp"
+            android:layout_gravity="end"
+            android:background="@drawable/circledrawable"
+            android:gravity="center"
+            android:text="X"
+            android:textSize="22dp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"></TextView>
+
+        <TextView
+            android:id="@+id/churchinnnn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+
+            android:scrollbarSize="20dp"
+            android:text="교회 소개"
+            android:textColor="#2196F3"
+            android:textSize="35dp"></TextView>
+
+        <TextView
+            android:id="@+id/worker1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:gravity="center"
+            android:scrollbarSize="20dp"
+            android:text="목사"
+            android:textColor="@color/black"
+            android:textSize="28dp"></TextView>
+
+        <TextView
+            android:id="@+id/worker2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:gravity="center"
+            android:scrollbarSize="20dp"
+            android:text="장로"
+            android:textColor="@color/black"
+            android:textSize="28dp"></TextView>
+
+        <TextView
+            android:id="@+id/worker3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:gravity="center"
+            android:scrollbarSize="20dp"
+            android:text="권사/장립집사"
+            android:textColor="@color/black"
+            android:textSize="28dp"></TextView>
+
+        <TextView
+            android:id="@+id/worker4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:gravity="center"
+            android:scrollbarSize="20dp"
+            android:text="행정직원"
+            android:textColor="@color/black"
+            android:textSize="28dp"></TextView>
+
+
+    </LinearLayout>
+</LinearLayout>
